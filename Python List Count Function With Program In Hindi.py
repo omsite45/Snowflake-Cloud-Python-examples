@@ -13,7 +13,9 @@ def dynamic_list():
     for m in range(len(lst)):
           fre=(lst.count(lst[m]))
           a+=1
-          print("Freq of ",lst[m]," is ", fre)
+    x=input("Enter the value whose you wanna frequency ")
+    i=lst.count(x)
+    print("Freq of ",x," is ", i)
     print(lst)
     
     fre=[] 
