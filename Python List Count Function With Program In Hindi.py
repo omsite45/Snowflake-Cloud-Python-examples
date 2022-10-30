@@ -1,4 +1,5 @@
 
+
 def dynamic_list():
     import ast
     lst=[]
@@ -13,10 +14,23 @@ def dynamic_list():
     for m in range(len(lst)):
           fre=(lst.count(lst[m]))
           a+=1
-    x=input("Enter the value whose you wanna frequency ")
-    i=lst.count(x)
-    print("Freq of ",x," is ", i)
-    print(lst)
+    print("The list is ", lst)
+    l=input("Enter the element you want to search :")
+    for k in range(len(lst)):
+        if(l==lst[k]):
+            i=lst.count(l)
+            print("Freq of ",l," is ", i)
+            print(lst)
+            
+
+        else:
+         print(l, " does NOT exist in the list ")
+         break
+
+        
+            
+            
+            
     
     fre=[] 
     
