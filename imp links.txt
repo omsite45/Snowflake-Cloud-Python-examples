@@ -1,0 +1,5 @@
+https://towardsdatascience.com/fuzzy-string-matching-in-python-68f240d910fe
+https://www.youtube.com/watch?v=1jNNde4k9Ng
+
+Python liabraries installation location:
+C:\Users\LENOVO\AppData\Local\Programs\Python\Python310\Lib>
