@@ -8,8 +8,8 @@ import pandas as pd
 
 print('opening sql server.. ')
 cnn_sql=pyo.connect(
-    r"Driver={SQL Server};Server=DESKTOP-1OACCVP\SQLEXPRESS;"
-    "Database=AdventureWorksLT2019; UID=sa1;PWD=sa;"
+    r"Driver={SQL Server};Server=;"
+    "Database=; UID=;PWD=;"
     )
 
 cursor = cnn_sql.cursor()
@@ -26,9 +26,9 @@ print(rep.replace("\\n", " "))
 print('SQL closed')
 
 
-scnn=sn.connect(user='swamilaxmi4',
-    password='Omsite@405',
-    account='buabvey-qf15468',
+scnn=sn.connect(user='',
+    password='',
+    account='',
     warehouse='SAMPLE',
     database='AdventureWorksLT2022',
     schema='Public'
