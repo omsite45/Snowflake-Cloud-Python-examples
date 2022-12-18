@@ -4,13 +4,13 @@ from snowflake.connector.pandas_tools import write_pandas
 
 
     
-cnn=sn.connect(user='swamilaxmi4',
-    password='Omsite@405',
-    account='buabvey-qf15468',
-    warehouse='project_warehouse',
+cnn=sn.connect(user='',
+    password='',
+    account='',
+    warehouse='',
     database='project_database',
     schema= 'project_schema',
-    sfRole = "ACCOUNTADMIN"
+    sfRole = ""
     )
 cs=cnn.cursor()
 try:
